@@ -1,0 +1,61 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #001838;
+    padding: 15px 20px;
+    display: flex;
+   
+    
+     
+    color: #fff;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    display: flex;
+  
+   
+    width: 100%;
+  }
+  
+  /* Style the list of navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* space between each link */
+  }
+  
+  /* Style each individual link */
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for the links */
+  .nav-link:hover {
+    color: #ff6347; /* Change to a color of your choice */
+  }
+  
+  /* Optional: Styling for the active link (if needed) */
+  .nav-link.active {
+    color: #ff6347;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design: Center navigation for smaller screens */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  

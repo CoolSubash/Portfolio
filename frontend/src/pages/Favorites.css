@@ -1,0 +1,40 @@
+.favorites-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .favorites-section {
+    margin-bottom: 30px;
+  }
+  
+  .favorite-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+  }
+  
